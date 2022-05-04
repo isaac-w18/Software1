@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="components.utilities.FormatChecker"/>
+    <fullyQualifiedTypeName name="components.utilities.Reporter"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="StringReassembly"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="components.simplereader.SimpleReader"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="components.stack.Stack"/>
+</qualifiedTypeNameHistroy>

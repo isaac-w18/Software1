@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="18" timestamp="1646506914019" analysisTimestamp="1646506913423" release="">
+  <Project projectName="RecursionOnNaturalNumber2">
+    <Jar>/Users/isaac/Desktop/Software 1/workspace/RecursionOnNaturalNumber2/bin/NaturalNumberInstanceOps.class</Jar>
+    <AuxClasspathEntry>/Users/isaac/Desktop/Software 1/workspace/RecursionOnNaturalNumber2/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/isaac/Desktop/Software 1/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/isaac/Desktop/Software 1/workspace/RecursionOnNaturalNumber2/src</SrcDir>
+    <SrcDir>/Users/isaac/Desktop/Software 1/workspace/RecursionOnNaturalNumber2/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 5 Mar 2022 14:01:53 -0500" total_classes="1" referenced_classes="26" total_bugs="0" total_size="60" num_packages="1" java_version="17.0.1" vm_version="17.0.1+12" cpu_seconds="1.35" clock_seconds="0.60" peak_mbytes="754.62" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="60">
+      <ClassStats class="NaturalNumberInstanceOps" sourceFile="NaturalNumberInstanceOps.java" interface="false" size="60" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="164" invocations="2" avgMicrosecondsPerInvocation="82367" maxMicrosecondsPerInvocation="145853" standardDeviationMicrosecondsPerInvocation="63485"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="123" invocations="394" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="23176" standardDeviationMicrosecondsPerInvocation="1280"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="34" invocations="398" avgMicrosecondsPerInvocation="85" maxMicrosecondsPerInvocation="1960" standardDeviationMicrosecondsPerInvocation="142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="23" invocations="26" avgMicrosecondsPerInvocation="893" maxMicrosecondsPerInvocation="7690" standardDeviationMicrosecondsPerInvocation="1764"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="16" invocations="83" avgMicrosecondsPerInvocation="192" maxMicrosecondsPerInvocation="5248" standardDeviationMicrosecondsPerInvocation="588"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="15" invocations="26" avgMicrosecondsPerInvocation="581" maxMicrosecondsPerInvocation="3744" standardDeviationMicrosecondsPerInvocation="1035"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="14" invocations="1" avgMicrosecondsPerInvocation="14582" maxMicrosecondsPerInvocation="14582" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="13" invocations="8" avgMicrosecondsPerInvocation="1671" maxMicrosecondsPerInvocation="7130" standardDeviationMicrosecondsPerInvocation="2351"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="13" invocations="360" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="1410" standardDeviationMicrosecondsPerInvocation="116"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="13" invocations="11" avgMicrosecondsPerInvocation="1184" maxMicrosecondsPerInvocation="4224" standardDeviationMicrosecondsPerInvocation="1286"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646496607004" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1646496607006" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1646496628889" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1646496660839" release="" codeSize="74" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1646496986226" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1646497120160" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1646497211513" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1646497259956" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1646497341200" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1646497451501" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1646497469229" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1646497477052" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1646497578690" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1646499362350" release="" codeSize="58" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1646499435300" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1646499520317" release="" codeSize="57" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1646506652189" release="" codeSize="58" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1646506665205" release="" codeSize="58" numClasses="1"/>
+  </History>
+</BugCollection>

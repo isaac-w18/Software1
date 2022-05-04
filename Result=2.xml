@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expression>
+  <plus>
+    <plus>
+      <number value="3" />
+      <times>
+        <number value="2" />
+        <minus>
+          <number value="3" />
+          <number value="8" />
+        </minus>
+      </times>
+    </plus>
+    <number value="9" />
+  </plus>
+</expression>

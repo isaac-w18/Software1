@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expression>
+  <divide>
+    <number value="2019" />
+    <number value="2019" />
+  </divide>
+</expression>

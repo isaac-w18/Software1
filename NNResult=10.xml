@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expression>
+  <minus>
+    <plus>
+      <minus>
+        <plus>
+          <times>
+            <number value="100000" />
+            <number value="2" />
+          </times>
+          <divide>
+            <number value="999999999999999" />
+            <number value="99999999999999" />
+          </divide>
+        </plus>
+        <number value="200000" />
+      </minus>
+      <times>
+        <number value="8" />
+        <number value="10" />
+      </times>
+    </plus>
+    <number value="80" />
+  </minus>
+</expression>

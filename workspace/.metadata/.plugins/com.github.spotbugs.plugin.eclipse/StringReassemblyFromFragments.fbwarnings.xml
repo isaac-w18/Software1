@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="89" timestamp="1649385873687" analysisTimestamp="1649385873128" release="">
+  <Project projectName="StringReassemblyFromFragments">
+    <Jar>/Users/isaac/Desktop/Software 1/workspace/StringReassemblyFromFragments/bin/StringReassembly.class</Jar>
+    <AuxClasspathEntry>/Users/isaac/Desktop/Software 1/workspace/StringReassemblyFromFragments/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/isaac/Desktop/Software 1/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/isaac/Desktop/Software 1/workspace/StringReassemblyFromFragments/src</SrcDir>
+    <SrcDir>/Users/isaac/Desktop/Software 1/workspace/StringReassemblyFromFragments/test</SrcDir>
+  </Project>
+  <BugInstance type="DM_STRING_VOID_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="78">
+    <Class classname="StringReassembly">
+      <SourceLine classname="StringReassembly" sourcefile="StringReassembly.java" sourcepath="StringReassembly.java"/>
+    </Class>
+    <Method classname="StringReassembly" name="addToSetAvoidingSubstrings" signature="(Lcomponents/set/Set;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="StringReassembly" start="158" end="188" startBytecode="0" endBytecode="403" sourcefile="StringReassembly.java" sourcepath="StringReassembly.java"/>
+    </Method>
+    <SourceLine classname="StringReassembly" start="166" end="166" startBytecode="46" endBytecode="46" sourcefile="StringReassembly.java" sourcepath="StringReassembly.java"/>
+    <SourceLine classname="StringReassembly" start="166" end="166" startBytecode="46" endBytecode="46" sourcefile="StringReassembly.java" sourcepath="StringReassembly.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="39" last="40" removedByChange="true">
+    <Class classname="StringReassemblyTest">
+      <SourceLine classname="StringReassemblyTest" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Class>
+    <Method classname="StringReassemblyTest" name="testLinesFromInput_" signature="()V" isStatic="false">
+      <SourceLine classname="StringReassemblyTest" start="16" end="25" startBytecode="0" endBytecode="21" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Method>
+    <LocalVariable name="lines" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="StringReassemblyTest" start="16" end="16" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <SourceLine classname="StringReassemblyTest" start="16" end="16" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="lines"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="41">
+    <Class classname="StringReassemblyTest">
+      <SourceLine classname="StringReassemblyTest" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Class>
+    <Method classname="StringReassemblyTest" name="testLinesFromInput_NoNewLines" signature="()V" isStatic="false">
+      <SourceLine classname="StringReassemblyTest" start="164" end="174" startBytecode="0" endBytecode="30" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Method>
+    <LocalVariable name="lines" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="StringReassemblyTest" start="164" end="164" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <SourceLine classname="StringReassemblyTest" start="164" end="164" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="lines"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="36">
+    <Class classname="StringReassemblyTest">
+      <SourceLine classname="StringReassemblyTest" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Class>
+    <Method classname="StringReassemblyTest" name="testLinesFromInput_NoRepeats" signature="()V" isStatic="false">
+      <SourceLine classname="StringReassemblyTest" start="193" end="205" startBytecode="0" endBytecode="36" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Method>
+    <LocalVariable name="lines" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="StringReassemblyTest" start="193" end="193" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <SourceLine classname="StringReassemblyTest" start="193" end="193" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="lines"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="41">
+    <Class classname="StringReassemblyTest">
+      <SourceLine classname="StringReassemblyTest" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Class>
+    <Method classname="StringReassemblyTest" name="testLinesFromInput_SeveralRepeats" signature="()V" isStatic="false">
+      <SourceLine classname="StringReassemblyTest" start="178" end="189" startBytecode="0" endBytecode="33" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    </Method>
+    <LocalVariable name="lines" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="StringReassemblyTest" start="178" end="178" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <SourceLine classname="StringReassemblyTest" start="178" end="178" startBytecode="7" endBytecode="7" sourcefile="StringReassemblyTest.java" sourcepath="StringReassemblyTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="lines"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 7 Apr 2022 22:44:33 -0400" total_classes="1" referenced_classes="22" total_bugs="4" total_size="118" num_packages="1" java_version="17.0.1" vm_version="17.0.1+12" cpu_seconds="1.17" clock_seconds="0.56" peak_mbytes="1487.27" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="4">
+    <PackageStats package="" total_bugs="4" total_types="2" total_size="118" priority_2="4">
+      <ClassStats class="StringReassembly" sourceFile="StringReassembly.java" interface="false" size="118" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="169" invocations="2" avgMicrosecondsPerInvocation="84833" maxMicrosecondsPerInvocation="142366" standardDeviationMicrosecondsPerInvocation="57533"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="106" invocations="392" avgMicrosecondsPerInvocation="270" maxMicrosecondsPerInvocation="26664" standardDeviationMicrosecondsPerInvocation="1415"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="31" invocations="393" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="1680" standardDeviationMicrosecondsPerInvocation="118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="18" invocations="22" avgMicrosecondsPerInvocation="827" maxMicrosecondsPerInvocation="7105" standardDeviationMicrosecondsPerInvocation="1595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="14" invocations="87" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="4279" standardDeviationMicrosecondsPerInvocation="467"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="13" invocations="17" avgMicrosecondsPerInvocation="803" maxMicrosecondsPerInvocation="4954" standardDeviationMicrosecondsPerInvocation="1166"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="11" invocations="17" avgMicrosecondsPerInvocation="687" maxMicrosecondsPerInvocation="3624" standardDeviationMicrosecondsPerInvocation="856"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="11" invocations="10" avgMicrosecondsPerInvocation="1124" maxMicrosecondsPerInvocation="5166" standardDeviationMicrosecondsPerInvocation="1458"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649342027785" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649342027787" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1649342092540" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1649342174151" release="" codeSize="100" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1649342222432" release="" codeSize="100" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1649342777809" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1649347920182" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1649347942077" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1649347960219" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1649347965213" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1649347979575" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1649347987506" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1649347992443" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1649348058410" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1649348079545" release="" codeSize="101" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1649348333614" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1649348384202" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1649348422430" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1649348460051" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1649348473897" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1649348491591" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1649348524862" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1649350680277" release="" codeSize="111" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1649350725436" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1649350934809" release="" codeSize="117" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1649351023762" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1649351045963" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1649351197921" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1649371565425" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1649371786717" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1649371822606" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1649371857526" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1649371977944" release="" codeSize="66" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1649372033738" release="" codeSize="64" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1649372048212" release="" codeSize="62" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1649377754755" release="" codeSize="64" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1649381405361" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1649381428511" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1649381489397" release="" codeSize="117" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1649381560907" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1649381598338" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1649381650234" release="" codeSize="92" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1649381765044" release="" codeSize="95" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1649381805905" release="" codeSize="95" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1649381840536" release="" codeSize="95" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1649381852741" release="" codeSize="95" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1649382110514" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1649382168346" release="" codeSize="111" numClasses="1"/>
+    <AppVersion sequence="48" timestamp="1649382206341" release="" codeSize="112" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1649382269706" release="" codeSize="112" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1649382315607" release="" codeSize="121" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1649382348943" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="52" timestamp="1649382447890" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1649382479622" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1649382499015" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1649382510924" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="56" timestamp="1649382600716" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1649382655136" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="58" timestamp="1649382685037" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1649382714419" release="" codeSize="159" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1649382734480" release="" codeSize="159" numClasses="1"/>
+    <AppVersion sequence="61" timestamp="1649382937773" release="" codeSize="117" numClasses="1"/>
+    <AppVersion sequence="62" timestamp="1649382959724" release="" codeSize="157" numClasses="1"/>
+    <AppVersion sequence="63" timestamp="1649382982103" release="" codeSize="157" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1649383180735" release="" codeSize="165" numClasses="1"/>
+    <AppVersion sequence="65" timestamp="1649383207924" release="" codeSize="165" numClasses="1"/>
+    <AppVersion sequence="66" timestamp="1649383217362" release="" codeSize="165" numClasses="1"/>
+    <AppVersion sequence="67" timestamp="1649383265663" release="" codeSize="165" numClasses="1"/>
+    <AppVersion sequence="68" timestamp="1649383337364" release="" codeSize="173" numClasses="1"/>
+    <AppVersion sequence="69" timestamp="1649383353185" release="" codeSize="173" numClasses="1"/>
+    <AppVersion sequence="70" timestamp="1649383434013" release="" codeSize="181" numClasses="1"/>
+    <AppVersion sequence="71" timestamp="1649383483178" release="" codeSize="189" numClasses="1"/>
+    <AppVersion sequence="72" timestamp="1649383499947" release="" codeSize="189" numClasses="1"/>
+    <AppVersion sequence="73" timestamp="1649383509966" release="" codeSize="189" numClasses="1"/>
+    <AppVersion sequence="74" timestamp="1649383549090" release="" codeSize="189" numClasses="1"/>
+    <AppVersion sequence="75" timestamp="1649383631102" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="76" timestamp="1649383643050" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="77" timestamp="1649383702042" release="" codeSize="193" numClasses="1"/>
+    <AppVersion sequence="78" timestamp="1649383870126" release="" codeSize="120" numClasses="1"/>
+    <AppVersion sequence="79" timestamp="1649383916080" release="" codeSize="195" numClasses="1"/>
+    <AppVersion sequence="80" timestamp="1649383976215" release="" codeSize="196" numClasses="1"/>
+    <AppVersion sequence="81" timestamp="1649383989439" release="" codeSize="196" numClasses="1"/>
+    <AppVersion sequence="82" timestamp="1649384164367" release="" codeSize="123" numClasses="1"/>
+    <AppVersion sequence="83" timestamp="1649384184424" release="" codeSize="123" numClasses="1"/>
+    <AppVersion sequence="84" timestamp="1649384210250" release="" codeSize="123" numClasses="1"/>
+    <AppVersion sequence="85" timestamp="1649384284893" release="" codeSize="120" numClasses="1"/>
+    <AppVersion sequence="86" timestamp="1649385477841" release="" codeSize="120" numClasses="1"/>
+    <AppVersion sequence="87" timestamp="1649385532279" release="" codeSize="118" numClasses="1"/>
+    <AppVersion sequence="88" timestamp="1649385667987" release="" codeSize="118" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="11" timestamp="1645579281542" analysisTimestamp="1645579277401" release="">
+  <Project projectName="RSSAggregator">
+    <Jar>/Users/isaac/Desktop/Software 1/workspace/RSSAggregator/bin/RSSAggregator.class</Jar>
+    <AuxClasspathEntry>/Users/isaac/Desktop/Software 1/workspace/RSSAggregator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/isaac/Desktop/Software 1/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/isaac/Desktop/Software 1/workspace/RSSAggregator/test</SrcDir>
+    <SrcDir>/Users/isaac/Desktop/Software 1/workspace/RSSAggregator/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="278" end="296" startBytecode="0" endBytecode="33" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="t" register="5" pc="57" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="287" end="287" startBytecode="55" endBytecode="55" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="287" end="287" startBytecode="55" endBytecode="55" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="t"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 22 Feb 2022 20:21:15 -0500" total_classes="1" referenced_classes="20" total_bugs="0" total_size="140" num_packages="1" java_version="17.0.1" vm_version="17.0.1+12" cpu_seconds="12.94" clock_seconds="4.17" peak_mbytes="527.54" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="140">
+      <ClassStats class="RSSAggregator" sourceFile="RSSAggregator.java" interface="false" size="140" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="967" invocations="408" avgMicrosecondsPerInvocation="2370" maxMicrosecondsPerInvocation="67569" standardDeviationMicrosecondsPerInvocation="5785"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="727" invocations="2" avgMicrosecondsPerInvocation="363978" maxMicrosecondsPerInvocation="433373" standardDeviationMicrosecondsPerInvocation="69392"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="328" invocations="20" avgMicrosecondsPerInvocation="16402" maxMicrosecondsPerInvocation="56975" standardDeviationMicrosecondsPerInvocation="19905"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="231" invocations="80" avgMicrosecondsPerInvocation="2890" maxMicrosecondsPerInvocation="39984" standardDeviationMicrosecondsPerInvocation="5408"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="170" invocations="20" avgMicrosecondsPerInvocation="8544" maxMicrosecondsPerInvocation="49369" standardDeviationMicrosecondsPerInvocation="11773"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="131" invocations="409" avgMicrosecondsPerInvocation="322" maxMicrosecondsPerInvocation="6889" standardDeviationMicrosecondsPerInvocation="602"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="110" invocations="8" avgMicrosecondsPerInvocation="13795" maxMicrosecondsPerInvocation="52699" standardDeviationMicrosecondsPerInvocation="15451"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="108" invocations="20" avgMicrosecondsPerInvocation="5440" maxMicrosecondsPerInvocation="36870" standardDeviationMicrosecondsPerInvocation="10981"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="88" invocations="12" avgMicrosecondsPerInvocation="7364" maxMicrosecondsPerInvocation="20960" standardDeviationMicrosecondsPerInvocation="5411"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="83" invocations="20" avgMicrosecondsPerInvocation="4157" maxMicrosecondsPerInvocation="43079" standardDeviationMicrosecondsPerInvocation="9463"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="82" invocations="8" avgMicrosecondsPerInvocation="10351" maxMicrosecondsPerInvocation="22842" standardDeviationMicrosecondsPerInvocation="8058"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1645467341412" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1645467341412" release="" codeSize="118" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1645467889185" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1645468652714" release="" codeSize="125" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1645470985177" release="" codeSize="132" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1645547991016" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1645548034724" release="" codeSize="137" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1645548070567" release="" codeSize="137" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1645548513693" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1645548737476" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1645548767693" release="" codeSize="140" numClasses="1"/>
+  </History>
+</BugCollection>
